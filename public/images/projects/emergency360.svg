@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-emergency" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#240c0c"/>
+      <stop offset="50%" stop-color="#190a0a"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </linearGradient>
+    <pattern id="grid-emergency" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(239,68,68,0.08)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#bg-emergency)"/>
+  <rect width="800" height="450" fill="url(#grid-emergency)"/>
+  <circle cx="400" cy="170" r="130" fill="#ef4444" opacity="0.09" filter="blur(40px)"/>
+
+  <!-- Emergency Shield & Pulse Beacon Graphic -->
+  <g transform="translate(400, 160)">
+    <!-- Expanding Pulse Rings -->
+    <circle cx="0" cy="0" r="75" fill="none" stroke="rgba(239,68,68,0.2)" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="55" fill="none" stroke="rgba(239,68,68,0.35)" stroke-width="1.5" stroke-dasharray="6,4"/>
+
+    <!-- Shield Base -->
+    <path d="M 0 -45 L 35 -30 L 35 10 C 35 35 0 50 0 50 C 0 50 -35 35 -35 10 L -35 -30 Z" fill="#180909" stroke="#ef4444" stroke-width="2.5"/>
+
+    <!-- SOS / Cross Symbol -->
+    <path d="M -6 -18 L 6 -18 L 6 -6 L 18 -6 L 18 6 L 6 6 L 6 18 L -6 18 L -6 6 L -18 6 L -18 -6 L -6 -6 Z" fill="#ef4444"/>
+
+    <!-- Radiating Signals -->
+    <path d="M -50 -25 A 30 30 0 0 0 -50 25" stroke="#f87171" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M 50 -25 A 30 30 0 0 1 50 25" stroke="#f87171" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Card Details Text -->
+  <text x="400" y="325" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="22" fill="#FFFFFF" letter-spacing="0.5">
+    Emergency360
+  </text>
+  <text x="400" y="355" text-anchor="middle" font-family="ui-monospace, monospace" font-size="13" fill="#ef4444" letter-spacing="1.5">
+    REAL-TIME SOS &amp; EMERGENCY RESPONSE DISPATCH
+  </text>
+  <text x="400" y="385" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8">
+    Instant Incident Alerting • Live Geolocation Dispatch • Telemetry Logs
+  </text>
+</svg>

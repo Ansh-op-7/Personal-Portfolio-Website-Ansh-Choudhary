@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-iot" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1305"/>
+      <stop offset="50%" stop-color="#17120a"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </linearGradient>
+    <pattern id="grid-iot" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(245,158,11,0.07)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#bg-iot)"/>
+  <rect width="800" height="450" fill="url(#grid-iot)"/>
+  <circle cx="400" cy="170" r="130" fill="#f59e0b" opacity="0.08" filter="blur(40px)"/>
+
+  <!-- IoT Lift & Virtual App Telemetry Graphic -->
+  <g transform="translate(300, 80)">
+    <!-- Elevator Shaft / Tower -->
+    <rect x="0" y="0" width="80" height="170" rx="6" fill="#18181b" stroke="#f59e0b" stroke-width="2"/>
+    <!-- Floor Levels -->
+    <line x1="0" y1="40" x2="80" y2="40" stroke="rgba(245,158,11,0.3)" stroke-width="1"/>
+    <line x1="0" y1="80" x2="80" y2="80" stroke="rgba(245,158,11,0.3)" stroke-width="1"/>
+    <line x1="0" y1="120" x2="80" y2="120" stroke="rgba(245,158,11,0.3)" stroke-width="1"/>
+    
+    <!-- Lift Cabin -->
+    <rect x="10" y="48" width="60" height="64" rx="4" fill="#27272a" stroke="#fbbf24" stroke-width="2"/>
+    <line x1="40" y1="48" x2="40" y2="112" stroke="#fbbf24" stroke-width="1.5"/>
+    <circle cx="40" cy="20" r="8" fill="#f59e0b" fill-opacity="0.3"/>
+    <text x="40" y="24" text-anchor="middle" font-family="monospace" font-weight="bold" font-size="11" fill="#fbbf24">▲</text>
+  </g>
+
+  <!-- Wireless Wave Signal -->
+  <g transform="translate(395, 150)" stroke="#f59e0b" stroke-width="2" fill="none">
+    <path d="M 0 0 A 15 15 0 0 1 0 30" opacity="0.4"/>
+    <path d="M 8 -5 A 25 25 0 0 1 8 35" opacity="0.7"/>
+    <path d="M 16 -10 A 35 35 0 0 1 16 40"/>
+  </g>
+
+  <!-- Mobile Companion Virtual Control App -->
+  <g transform="translate(435, 75)">
+    <rect x="0" y="0" width="90" height="175" rx="14" fill="#09090b" stroke="#f59e0b" stroke-width="2"/>
+    <rect x="30" y="6" width="30" height="4" rx="2" fill="#52525b"/>
+    <!-- App UI Buttons -->
+    <rect x="12" y="25" width="66" height="30" rx="6" fill="#18181b" stroke="#3f3f46" stroke-width="1"/>
+    <text x="45" y="44" text-anchor="middle" font-family="monospace" font-size="10" font-weight="bold" fill="#fbbf24">FLOOR 03</text>
+    
+    <circle cx="30" cy="78" r="12" fill="#27272a" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="30" y="82" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#fff">▲</text>
+    
+    <circle cx="60" cy="78" r="12" fill="#27272a" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="60" y="82" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#fff">▼</text>
+    
+    <rect x="12" y="105" width="66" height="48" rx="6" fill="#18181b"/>
+    <text x="45" y="125" text-anchor="middle" font-family="monospace" font-size="8" fill="#a1a1aa">TELEMETRY: OK</text>
+    <text x="45" y="140" text-anchor="middle" font-family="monospace" font-size="8" fill="#22c55e">DOOR: SECURE</text>
+  </g>
+
+  <!-- Card Details Text -->
+  <text x="400" y="325" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="22" fill="#FFFFFF" letter-spacing="0.5">
+    IoT-Based Lift with Virtual Control App
+  </text>
+  <text x="400" y="355" text-anchor="middle" font-family="ui-monospace, monospace" font-size="13" fill="#f59e0b" letter-spacing="1.5">
+    HARDWARE AUTOMATION &amp; REAL-TIME TELEMETRY
+  </text>
+  <text x="400" y="385" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8">
+    Winner — Science Exhibition 2025 • Contactless Floor Dispatch
+  </text>
+</svg>

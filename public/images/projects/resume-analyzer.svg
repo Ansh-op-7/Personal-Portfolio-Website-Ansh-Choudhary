@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-resume" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1329"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </linearGradient>
+    <pattern id="grid-resume" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(56,189,248,0.07)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#bg-resume)"/>
+  <rect width="800" height="450" fill="url(#grid-resume)"/>
+  <circle cx="400" cy="170" r="130" fill="#38bdf8" opacity="0.08" filter="blur(40px)"/>
+
+  <!-- Resume Document & SQL Database Graphic -->
+  <g transform="translate(340, 90)">
+    <!-- Document Card -->
+    <rect x="0" y="0" width="120" height="150" rx="10" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+    <!-- Lines of Resume Text -->
+    <line x1="20" y1="30" x2="60" y2="30" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+    <line x1="20" y1="50" x2="100" y2="50" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+    <line x1="20" y1="65" x2="90" y2="65" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+    <line x1="20" y1="80" x2="95" y2="80" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+    <!-- Keyword Score Chips -->
+    <rect x="20" y="100" width="35" height="14" rx="4" fill="#38bdf8" fill-opacity="0.2"/>
+    <rect x="60" y="100" width="40" height="14" rx="4" fill="#6C8CFF" fill-opacity="0.2"/>
+    <circle cx="85" cy="130" r="14" fill="#38bdf8"/>
+    <path d="M 80 130 L 84 134 L 91 126" stroke="#0f172a" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- SQL Database Cylinder -->
+  <g transform="translate(480, 115)">
+    <ellipse cx="35" cy="20" rx="35" ry="12" fill="#1e293b" stroke="#6C8CFF" stroke-width="2"/>
+    <path d="M 0 20 L 0 80 A 35 12 0 0 0 70 80 L 70 20" fill="#1e293b" stroke="#6C8CFF" stroke-width="2"/>
+    <ellipse cx="35" cy="50" rx="35" ry="12" fill="none" stroke="#6C8CFF" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <ellipse cx="35" cy="80" rx="35" ry="12" fill="none" stroke="#6C8CFF" stroke-width="2"/>
+  </g>
+
+  <!-- Connection Flow Line -->
+  <path d="M 445 165 L 485 165" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4,4"/>
+
+  <!-- Card Details Text -->
+  <text x="400" y="325" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="22" fill="#FFFFFF" letter-spacing="0.5">
+    Smart Resume Analyzer
+  </text>
+  <text x="400" y="355" text-anchor="middle" font-family="ui-monospace, monospace" font-size="13" fill="#38bdf8" letter-spacing="1.5">
+    PYTHON TEXT PARSING &amp; SQL RELATIONAL DATABASE
+  </text>
+  <text x="400" y="385" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8">
+    Tokenization Engine • Keyword Matching • Persistent Candidate Logs
+  </text>
+</svg>

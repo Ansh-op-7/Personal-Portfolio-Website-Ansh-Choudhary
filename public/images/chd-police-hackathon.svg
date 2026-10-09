@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-police" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071527"/>
+      <stop offset="50%" stop-color="#0b1e38"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </linearGradient>
+    <linearGradient id="badge-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#6C8CFF"/>
+    </linearGradient>
+    <pattern id="grid-police" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(56,189,248,0.06)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#bg-police)"/>
+  <rect width="800" height="450" fill="url(#grid-police)"/>
+  <circle cx="400" cy="160" r="140" fill="#38bdf8" opacity="0.08" filter="blur(40px)"/>
+
+  <!-- Certificate / Badge Frame -->
+  <rect x="60" y="40" width="680" height="370" rx="16" fill="#0d192b" fill-opacity="0.8" stroke="rgba(56,189,248,0.25)" stroke-width="1.5"/>
+  <rect x="75" y="55" width="650" height="340" rx="12" fill="none" stroke="rgba(108,140,255,0.15)" stroke-width="1" stroke-dasharray="6,4"/>
+
+  <!-- Police Badge & Hackathon Emblem -->
+  <g transform="translate(400, 130)">
+    <!-- Shield Outline -->
+    <path d="M 0 -50 L 40 -32 L 40 12 C 40 40 0 60 0 60 C 0 60 -40 40 -40 12 L -40 -32 Z" fill="#081424" stroke="url(#badge-gold)" stroke-width="2.5"/>
+    <circle cx="0" cy="2" r="22" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <!-- Star / Emblem -->
+    <path d="M 0 -15 L 4 -4 L 15 -4 L 7 3 L 10 14 L 0 7 L -10 14 L -7 3 L -15 -4 L -4 -4 Z" fill="#38bdf8"/>
+  </g>
+
+  <!-- Title & Certificate Text -->
+  <text x="400" y="235" text-anchor="middle" font-family="ui-monospace, monospace" font-size="12" fill="#38bdf8" letter-spacing="2">
+    NATIONAL LEVEL HACKATHON 2026
+  </text>
+  <text x="400" y="270" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="24" fill="#FFFFFF" letter-spacing="0.5">
+    Chandigarh Police National Hackathon 2026
+  </text>
+  <text x="400" y="305" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="15" fill="#6C8CFF">
+    Team: Peak Performers • Shortlisted for Round 2
+  </text>
+
+  <!-- Tag / Status Badge -->
+  <g transform="translate(300, 335)">
+    <rect x="0" y="0" width="200" height="28" rx="14" fill="#102a45" stroke="#38bdf8" stroke-width="1"/>
+    <text x="100" y="18" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11" font-weight="bold" fill="#38bdf8" letter-spacing="1">
+      ★ ROUND 2 QUALIFIER
+    </text>
+  </g>
+</svg>
