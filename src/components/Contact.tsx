@@ -23,7 +23,7 @@ export default function Contact() {
   const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
   const [errorMsg, setErrorMsg] = useState("");
 
-  const emailAddress = "anshchaudhary8868@gmail.com";
+  const emailAddress = "anshchaudhary88688@gmail.com";
 
   const handleCopyEmail = () => {
     navigator.clipboard.writeText(emailAddress);
